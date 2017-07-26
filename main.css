@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 25px solid #429bf4;
+    background-color: #429bf4;
+	margin-top: -35px;
+}
+div.body {
+	text-align: center;
+}
+div.ground{
+	overflow: hidden;
+    border: 1px solid #9b6217;
+    background-color: #9b6217;
+	margin-top: 0px;
+}
+h1 {
+	color: white;
+	font-size: 60px;
+	font-family:"Palatino Linotype", "serif";
+	font-weight:bolder;
+	display: inline;
+}
+h2 {
+	font-size: 30px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+p { 
+	color: darkolivegreen;
+	font-size: 18px;
+	font-weight:bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#indent{
+	text-indent:50px;
+	line-height:30px;
+}
+.name {
+	font-weight:bolder;
+	font-color:#000000;
+	font-size: 22px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#logo{
+	display: inline;
+}
+div.body2 {
+	text-align: center;
+}
+#wrapper {
+	margin-left:200px;
+	margin-right:200px;
+	padding-right:80px;
+	padding-left:80px;
+	border-right: 5px dashed #146800;
+	border-left: 5px dashed #146800;
+}
+#game {
+	background-color:lightgreen;
+	margin: 0px;
+	margin-top: -25px;
+	padding: 0px;
+}
+iframe {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left:400px;
+  margin-right:400px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
+}
